@@ -1,0 +1,15 @@
+datasource-created   0x12345
+datasource-removed   0x12345
+datasource-cancelled 0x12345
+datasource-executed  0x12345
+datasource-completed 0x12345 { result: _, success: _ }
+
+deferred-created    0x67890 { dataSourceId: ? }
+deferred-removed    0x67890
+deferred-cancelled  0x67890
+deferred-resolved   0x67890 { result: _ }
+deferred-rejected   0x67890 { result: _ }
+deferred-paused     0x67890 { myLink: ?, distantLink: ? }
+deferred-unpaused   0x67890
+deferred-link-added 0x67890 { linkId: _, finalizer: _, file: _, line: _ }
+deferred-link-ran   0x67890 { linkId: _, finalizer: _, result: _ }

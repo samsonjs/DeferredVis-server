@@ -1,0 +1,32 @@
+{ "name" : "deferredvis-server"
+, "version" : "0.0.1"
+, "description" : "Visualize your Deferreds"
+, "keywords" :
+  [ "deferred"
+  , "visualize"
+  ]
+, "author" : "Sami Samhuri <sami@samhuri.net>"
+, "maintainers" : [
+    "Sami Samhuri <sami@samhuri.net>"
+  ]
+, "homepage" : "http://samhuri.net/proj/DeferredVis-server"
+, "main" : "server"
+, "bin" : { "deferredvis-server" : "./server.js" }
+, "engines" : { "node" : "0.4.x" }
+, "repository" :
+  { "type" : "git"
+  ,"url" : "git://github.com/samsonjs/DeferredVis-server.git"
+  }
+, "licenses" :
+  [ { "type" : "MIT"
+    , "url" : "http://github.com/samsonjs/DeferredVis-server/raw/master/LICENSE"
+    }
+  ]
+, "dependencies" :
+  { "connect"       : "1.4.x"
+  , "connect-redis" : "1.0.x"
+  , "express"       : "2.4.x"
+  , "socket.io"     : "0.7.x"
+  }
+, "devDependencies" : {}
+}
